@@ -1,3 +1,6 @@
+from calendar import day_abbr
+day_trip=('funtime!')
+
 import random
 city_destination=("Baton Rouge Louisiana", "New Orleans Louisiana", "Miami Florida")
 print(random.choices(city_destination))
@@ -19,6 +22,9 @@ entertainment_destination=("FunDimension", "Axe Habits Miami", "Jungle Island")
 print(random.choice(entertainment_destination))
 print("Jungle Island")
 
+day_trip= ("funtime2")
+if("displeased with the current day_trip you we have revised a back up for you" ):
+    print(day_trip)
 
 import random
 city_destination=("Biloxi Mississippi", "San Antonio Texas", "Atlanta Georgia")
